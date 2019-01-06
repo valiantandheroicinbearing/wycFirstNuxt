@@ -27,7 +27,11 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    // 项目里要用的 CSS 文件
+    '@/assets/css/main.css',
+    // 项目里要使用的 SCSS 文件
+    // '@/assets/css/main.scss'
   ],
 
   /*
@@ -59,7 +63,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }

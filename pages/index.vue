@@ -6,7 +6,7 @@
         wycFirstNuxt
       </h1>
       <h2 class="subtitle">
-        vue 服务端渲染实践
+        vue 服务端渲染实践1
       </h2>
       <div class="links">
         <a

@@ -8,7 +8,8 @@
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
     "start": "cross-env NODE_ENV=production node server/index.js",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+     "test": "ava"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
@@ -18,9 +19,11 @@
     "@nuxtjs/axios": "^5.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
+    "ava": "^1.0.1",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "2.6.2",
+    "jsdom": "^13.1.0",
+    "nodemon": "^1.11.0",
     "prettier": "1.14.3"
   }
 }
